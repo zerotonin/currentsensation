@@ -1,0 +1,52 @@
+# ─── byte-compiled, optimised ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ─── distribution / packaging ─────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+.eggs/
+
+# ─── editable installs / venvs ────────────────────────────────────────
+.venv/
+venv/
+env/
+.python-version
+
+# ─── tests, coverage, mypy ────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ─── Sphinx ───────────────────────────────────────────────────────────
+docs/_build/
+docs/_autosummary/
+
+# ─── IDEs ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ─── OS cruft ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── experiment outputs (never commit recorded video/images) ──────────
+*.avi
+*.mp4
+*.jpg
+*.jpeg
+*.png
+lastExpSchedule.txt
+results/
+recordings/
+!docs/**/*.png
