@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=68", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "currentsensation"
+description = "Raspberry-Pi controller for fish electroreception experiments"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+authors = [
+    { name = "Bart R. H. Geurten", email = "bart.geurten@otago.ac.nz" },
+]
+keywords = [
+    "fish",
+    "electroreception",
+    "behaviour",
+    "raspberry-pi",
+    "experiment-control",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+]
+dynamic = ["version"]
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+pi = [
+    "RPi.GPIO>=0.7",
+    "pygame>=2.5",
+]
+dev = [
+    "pytest>=7",
+    "pytest-cov>=4",
+    "ruff>=0.4",
+]
+docs = [
+    "sphinx>=7",
+    "sphinx-rtd-theme>=2",
+]
+
+[project.urls]
+Homepage = "https://github.com/zerotonin/currentsensation"
+Documentation = "https://zerotonin.github.io/currentsensation/"
+Repository = "https://github.com/zerotonin/currentsensation"
+Issues = "https://github.com/zerotonin/currentsensation/issues"
+
+[project.scripts]
+currentsensation = "currentsensation.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools_scm]
+write_to = "src/currentsensation/_version.py"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
