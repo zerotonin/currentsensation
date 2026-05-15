@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata from this file."
-title: "currentsensation: Raspberry-Pi controller for fish electroreception experiments"
+title: "currentsensation: Raspberry-Pi controller for insect electroreception experiments"
 authors:
   - family-names: "Geurten"
     given-names: "Bart R. H."
@@ -13,15 +13,15 @@ license: MIT
 repository-code: "https://github.com/zerotonin/currentsensation"
 url: "https://github.com/zerotonin/currentsensation"
 keywords:
-  - "fish"
+  - "insect"
   - "electroreception"
   - "behavioural-biology"
   - "raspberry-pi"
   - "experiment-control"
 abstract: >-
   currentsensation drives a Raspberry-Pi-based experimental rig for
-  fish electroreception assays. Three colour-coded GPIO current lines,
-  a startle shaker and a synchronised camera record fish responses to
-  electrical stimuli on a randomised, repeatable schedule. The package
-  ships with a mock GPIO backend so the scheduling and analysis pieces
-  can be developed and tested off-Pi.
+  insect electroreception assays. Three colour-coded GPIO current
+  lines, a startle shaker and a synchronised camera record insect
+  responses to electrical stimuli on a randomised, repeatable
+  schedule. The package ships with a mock GPIO backend so the
+  scheduling and analysis pieces can be developed and tested off-Pi.

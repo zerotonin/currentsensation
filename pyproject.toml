@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "currentsensation"
-description = "Raspberry-Pi controller for fish electroreception experiments"
+description = "Raspberry-Pi controller for insect electroreception experiments"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.11"
@@ -12,7 +12,7 @@ authors = [
     { name = "Bart R. H. Geurten", email = "bart.geurten@otago.ac.nz" },
 ]
 keywords = [
-    "fish",
+    "insect",
     "electroreception",
     "behaviour",
     "raspberry-pi",

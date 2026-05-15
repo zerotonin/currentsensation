@@ -1,7 +1,7 @@
 currentsensation
 ================
 
-Raspberry-Pi controller for fish electroreception experiments.
+Raspberry-Pi controller for insect electroreception experiments.
 
 .. toctree::
    :maxdepth: 2

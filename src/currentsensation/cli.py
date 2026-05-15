@@ -51,7 +51,7 @@ def _build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="currentsensation",
         description=(
-            "Raspberry-Pi controller for fish electroreception experiments."
+            "Raspberry-Pi controller for insect electroreception experiments."
         ),
     )
     parser.add_argument("--version", action="version", version=__version__)

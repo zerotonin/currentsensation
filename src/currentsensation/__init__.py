@@ -1,4 +1,4 @@
-"""currentsensation — RPi controller for fish electroreception assays."""
+"""currentsensation — RPi controller for insect electroreception assays."""
 
 from __future__ import annotations
 

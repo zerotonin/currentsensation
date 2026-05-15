@@ -4,7 +4,7 @@
 [![docs](https://github.com/zerotonin/currentsensation/actions/workflows/docs.yml/badge.svg)](https://zerotonin.github.io/currentsensation/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Raspberry-Pi experiment controller for **fish electroreception assays**:
+Raspberry-Pi experiment controller for **insect electroreception assays**:
 three colour-coded GPIO-driven current lines, a startle shaker, a light,
 and synchronised video or image capture.
 
